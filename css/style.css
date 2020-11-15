@@ -191,12 +191,15 @@ background-color: rgba(148, 210,232, 0.1);
 }
 .video{
   width: 70%;
-  background-color: rgba(148, 210,232, 0.1);
+  background-color: rgba(148, 210,232, 1);
   margin: 5% auto;
   padding: 5rem;
 }
+.video p{
+  color: white;
+}
 h3{
-  color: #94d2e8;
+  color: #fff;
   font-weight: 700;
   font-size: 3.5rem;
   margin: 20px;
