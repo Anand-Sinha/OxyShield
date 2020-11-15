@@ -6,7 +6,11 @@
   transition: 0.6s;
   scroll-behavior: smooth;
 }
-
+::selection{
+  background-color: #ccc;
+  color: #295987;
+  text-shadow: 0px 0px 1px #000;
+}
 html {
   font-size: 62.5%;
   /* padding: 1rem; */
@@ -18,7 +22,7 @@ body {
   font-size: 1.6rem;
   /* padding: 3rem; */
   /* background-color: #94d2e8; */
-  height: 1000px;
+  /* height: 1000px; */
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -26,7 +30,10 @@ a{
   text-decoration: none;
   color: white;
 }
-
+.toLocate{
+  position: relative;
+  top: -15rem;
+}
 .logo {
   position: relative;
   transition: 0.6s;
@@ -44,7 +51,7 @@ a{
   align-items: center;
   width: 100%;
   transition: 0.6s;
-  padding: 3rem 20rem;
+  padding:6rem 20rem;
   /* display: inline-block;  */
 }
 
@@ -56,10 +63,11 @@ a{
 }
 
 .sticky {
-  padding: 1rem 25rem;
+  padding: 2rem 25rem;
   background: rgba(148, 210,232, 0.71);
   /* background-color: rgba(255,255,255,); */
-  box-shadow: 0.625rem 0px 2.5rem rgba(0, 118, 230, 0.5);
+  box-shadow: 0.625rem 0px 2.5rem black;
+  /* box-shadow: 0.625rem 0px 2.5rem rgba(0, 118, 230, 0.5); */
 }
 
 ul {
@@ -137,10 +145,13 @@ h1{
   top: -70px;
 }
 .features_bar img{
+  /* border-radius: 100%; */
   width: 80%;
 }
 .features_bar img:hover{
   /* width: 100%; */
+  filter: hue-rotate(180deg);
+  /* box-shadow: 0.625rem 0px 2.5rem black; */
   transform: scale(1.1);
 }
 .features_bar p{
@@ -163,6 +174,20 @@ h2{
   margin-left: 30%;
   font-size: 4rem;
   text-align: left;
+}
+.about{
+  padding: 15rem auto;
+margin: auto;
+background-color: rgba(148, 210,232, 0.1);
+}
+.aboutUs{
+  margin: 10rem auto;
+  background-color: #94d2e8;
+}
+.aboutUs_content{
+  width: 60%;
+  margin: auto;
+  padding-bottom: 10rem;
 }
 .video{
   width: 70%;
