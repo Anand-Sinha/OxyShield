@@ -57,8 +57,8 @@ a{
 
 .sticky {
   padding: 1rem 25rem;
-  /* background: rgba(148, 210,232, 1); */
-  background-color: rgba(255,255,255,0.1);
+  background: rgba(148, 210,232, 0.71);
+  /* background-color: rgba(255,255,255,); */
   box-shadow: 0.625rem 0px 2.5rem rgba(0, 118, 230, 0.5);
 }
 
@@ -163,6 +163,72 @@ h2{
   margin-left: 30%;
   font-size: 4rem;
   text-align: left;
+}
+.video{
+  width: 70%;
+  background-color: rgba(148, 210,232, 0.1);
+  margin: 5% auto;
+  padding: 5rem;
+}
+h3{
+  color: #94d2e8;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin: 20px;
+}
+.contact_us{
+  padding: 5rem;
+  background-color: rgba(148,210,232,0.5);
+}
+input{
+  margin: 20px auto;
+  padding: 10px 40px;
+  display: block;
+  border-radius: 10px;
+  border: none;
+  background-color: #94d2e8;
+  color: white;
+}
+::placeholder{
+color: white;
+}
+h4{
+  color: white;
+  font-weight: 700;
+  padding: 20px;
+  font-size: 4rem;
+}
+.footer{
+  padding: 5rem 0 0 0;
+  background-color: #94d2e8;
+}
+.footer .row{
+  width: 55%;
+  padding: 5rem 0;
+  margin:auto;
+  color: #295987;
+}
+.footer img{
+  width: 10%;
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+h5{
+  font-weight: 700;
+  font-size: 2rem;
+}
+.footer p{
+  font-weight: 400;
+  margin: 0;
+}
+.copy{
+  padding: 8px;
+  color: white;
+  background-color: #295987;
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   h1{
