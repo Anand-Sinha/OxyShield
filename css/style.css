@@ -6,6 +6,50 @@
   transition: 0.6s;
   scroll-behavior: smooth;
 }
+.aaa {
+  color: grey;
+  font-size: 30px;
+  line-height: 40px;
+}
+.btn {
+  word-spacing: 0.19rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 1.5rem 4rem;
+  border-radius: 10px;
+  transition: all 0.4s;
+  font-size: 1.6rem;
+  /* border: none; */
+  cursor: pointer;
+}
+.gototop {
+  text-align: center;
+  opacity: 0.8;
+  right: 80px;
+  position: fixed;
+  top: 85%;
+  transform: scale(0.6);
+  height: 60px;
+  width: 60px;
+  margin: -50px 0 0 90%;
+  z-index: 999;
+}
+
+.btn-dange {
+  display: none;
+  background-color: #94d2e8;
+  border-radius: 15%;
+  /* width: 80px; */
+  /* height: 70px; */
+  z-index: 99;
+  margin-bottom: 2rem;
+  border: 1px solid #fff;
+}
+
+.btn-dange:hover {
+  background-color: #295987;
+}
 ::selection{
   background-color: #ccc;
   color: #295987;
@@ -188,6 +232,20 @@ background-color: rgba(148, 210,232, 0.1);
   width: 60%;
   margin: auto;
   padding-bottom: 10rem;
+}
+.about_btn{
+  border: none;
+  color: white;
+  background-color: #94d2e8;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin-top: 30px;
+  border: 1px solid #94d2e8;
+  font-weight: 400;
+}
+.about_btn:hover{
+  background-color: inherit;
+  color: #94d2e8;
 }
 .video{
   width: 70%;
