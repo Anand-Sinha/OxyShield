@@ -52,9 +52,9 @@
   border-radius: 0;
 }
 ::selection{
-  background-color: #ccc;
+  background-color: 0;
   color: #295987;
-  text-shadow: 0px 0px 1px #000;
+  /* text-shadow: 0px 0px 1px #000; */
 }
 html {
   font-size: 62.5%;
@@ -111,8 +111,8 @@ a{
   padding: 2rem 25rem;
   background: rgba(148, 210,232, 1);
   /* background-color: rgba(255,255,255,); */
-  box-shadow: 0.625rem 0px 2.5rem black;
-  /* box-shadow: 0.625rem 0px 2.5rem rgba(0, 118, 230, 0.5); */
+  /* box-shadow: 0.625rem 0px 2.5rem black; */
+  box-shadow: 0.625rem 0px 2.5rem rgba(0, 118, 230, 0.5);
 }
 
 ul {
@@ -226,7 +226,7 @@ margin: auto;
 background-color: rgba(148, 210,232, 0.1);
 }
 .aboutUs{
-  margin: 10rem auto;
+  margin: 8rem auto;
   background-color: #94d2e8;
 }
 .aboutUs_content{
@@ -251,16 +251,16 @@ background-color: rgba(148, 210,232, 0.1);
 }
 .video{
   width: 70%;
-  background-color: rgba(148, 210,232, 1);
+  background-color: rgba(148, 210,232, 0.3);
   margin: 5% auto;
   padding: 5rem;
-  border-radius: 20px;
+  border-radius: 0px;
 }
 .video p{
-  color: white;
+  /* color: white; */
 }
 h3{
-  color: #fff;
+  color: #295987;
   font-weight: 700;
   font-size: 3.5rem;
   margin: 20px;
@@ -269,7 +269,8 @@ h3{
   padding: 5rem;
   background-color: rgba(148,210,232,0.5);
 }
-input{
+input,
+textarea{
   margin: 20px auto;
   padding: 10px 40px;
   display: block;
@@ -325,6 +326,95 @@ h5{
   color: white;
   background-color: #295987;
 }
+/* ABOUT US PAGE */
+.active{
+  color: #295987 ;
+  border-bottom: 0.125rem solid #fff;
+}
+.bgImg{
+  background-image: url("/img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay{
+  background-color: rgba(0,0,0,0.7);
+}
+.bg-about{
+  background-image: url("/img/bg-about.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-blog{
+  background-image: url("/img/blog.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bgLab{
+  background-image: url("/img/ctr.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* ABOUT US PAGE ENDS HERE */
+
+/* BLOG PAGE */
+.blogimg{
+  width: 100%;
+  margin: 0;
+}
+.blogh2{
+  text-align: center;
+  color: #296987;
+  padding: 5.5rem;
+  margin: 0;
+}
+.post{
+  position: relative;
+}
+.blogright{
+  text-align: right;
+  position: absolute;
+  color: rgba(148,210,238,0.5);
+  font-size: 5.5rem;
+  right: 0;
+  bottom: -20px;
+}
+.blogleft{
+  text-align: right;
+  position: absolute;
+  color: rgba(148,210,238,0.5);
+  font-size: 5.5rem;
+  left: 0;
+  bottom: -20px;
+}
+.container .row{
+  margin: 8rem auto;
+  cursor: pointer;
+}
+.bleft{
+  text-align: left;
+  margin: 2rem 9%;
+  position: relative;
+  top: 10px;
+  color: rgba(41,105,135,0.7);
+  text-decoration: underline;
+}
+.bright{
+  text-align: right;
+  margin: 2rem 9%;
+  position: relative;
+  top: 15px;
+  color: rgba(41,105,135,0.7);
+    text-decoration: underline;
+}
+.container a:hover{
+  color: #296987;
+  transition: 0.5s;
+}
+h6{
+  font-size: 2.5rem;
+  padding: 2rem;
+  /* font-weight: 600; */
+}
 @media (min-width: 1100px) and (max-width: 1400px) {
   h1{
     font-size: 5rem;
@@ -345,6 +435,8 @@ h5{
   font-size: 3rem
   }
 }
+
+
 @media (min-width: 451px) and (max-width: 1100px) {
 h1{
   width: 80%;
@@ -390,6 +482,18 @@ h2{
   padding: 2rem;
   border-radius: 10px;
 }
+.mediaMargin{
+  margin: auto !important;
+}
+.labImg{
+  position: static !important;
+  border-radius: 0 !important;
+  margin-top: 2rem;
+}
+.blogleft,
+.blogright{
+  font-size: 3.5rem;
+}
 }
 @media (max-width: 450px) {
   h1{
@@ -420,7 +524,8 @@ h2{
   .footer .row{
     width: 95%;
   }
-  input{
+  input,
+  textarea{
     margin: 20px auto;
     padding: 10px;
   }
@@ -469,7 +574,7 @@ h4{
   font-size: 2.5rem;
 }
 .aboutUs{
-  margin: 3rem auto;
+  /* margin: 0rem auto; */
 }
 .aboutUs_content{
   width: 90%;
@@ -494,6 +599,45 @@ h3{
 .gototop {
   right: 40px;
   top: 90%;
+}
+.mediaMargin{
+  margin: auto !important;
+}
+.labImg{
+  position: static !important;
+  border-radius: 0 !important;
+  margin-top: 2rem;
+}
+
+/* CONTACT US PAGE */
+
+.contact_row{
+  padding: 0rem !important;
+  /* max-width: 100% !important; */
+  margin: auto !important;
+}
+.contact_h3{
+  font-size: 2rem;
+}
+.blogleft,
+.blogright{
+  font-size: 1.5rem;
+}
+.blogright{
+bottom:-10px;
+}
+.bleft,.bright{
+  margin: 2rem 0;
+  font-size: 12px;
+}
+.blogh2{
+  /* text-align: center; */
+  /* color: #296987; */
+  padding: 1.5rem;
+  /* margin: 0; */
+}
+.blogimg{
+  width: 60%;
 }
   /* #logo_ph{
     position: relative;
