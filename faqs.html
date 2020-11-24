@@ -13,6 +13,33 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/icon.png">
   </head>
+  <style media="screen">
+    .card-header{
+      background-color: #94d2e8;
+    }
+    .mb-0{
+      color: white;
+      margin:1.5rem auto;
+      margin-bottom: 1.5rem !important;
+    }
+    .mb-0:hover{
+      color: #295987;
+    }
+    .card-body{
+      background: rgba(148, 210,232, 0.2);
+      padding: 3rem 8rem;
+      text-align: justify;
+    }
+    .card{
+      margin: 0.4rem auto;
+    }
+    @media (max-width: 450px) {
+      .card-body{
+        font-size: 14px;
+        padding: 2rem;
+      }
+    }
+  </style>
   <body>
     <nav id="navBar" class="navbar navbar-expand-lg navbar-light navigation--row navEdit navigation__nav">
       <button id="hamMenu" class="navbar-toggler mr-auto hide" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,11 +48,13 @@
         <a href="#"><img id="logo_ph" class="navlogo logo hide" src="img/Logo.png" alt=""></a>
       <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
         <ul class="navbar-nav mr-auto">
-          <li class="navigation__item nav-item"><a href="/" class="fontWhite navigation__link">Work</a></li>
+          <li class="navigation__item nav-item"><a href="../index.html" class="fontWhite navigation__link">Home</a></li>
           <li class="navigation__item nav-item"><a href="about.html" class="fontWhite navigation__link">About</a></li>
+          <li class="navigation__item nav-item"><a href="../products.html" class="fontWhite navigation__link">Products</a></li>
         </ul>
         <a href="#"><img id="logo" class="navlogo logo " src="img/Logo.png" alt=""></a>
         <ul class="navbar-nav ml-auto">
+          <li class="navigation__item nav-item"><a href="#" class="fontWhite navigation__link active">FAQs</a></li>
           <li class="navigation__item nav-item"><a href="contact.html" class="fontWhite navigation__link">Contact</a></li>
           <li class="navigation__item nav-item"><a href="blog.html" class="fontWhite navigation__link">Blog</a></li>
         </ul>
@@ -35,7 +64,7 @@
     <section class="header">
         <div class="row">
           <div class="col-12 col-md-6">
-            <h1>OxyShield <br>Face Masks.</h1>
+            <h1>OxyShield <br>FAQs.</h1>
           </div>
           <div class="col-12 col-md-6">
             <img id="header_logo" src="img/Logo.png" alt="">
@@ -44,13 +73,263 @@
     </section>
 
 
+    <div style="margin-top: 50px;" class="bg-faq">
+      <div class="overlay">
+      <div style="color:white;padding: 30rem 0; font-weight: 500; font-size: 1.5rem;>" class="">
+    <h1 style="margin:0 auto; text-align:center">Frequently Asked Questions.</h1>
+    </div>
+      </div>
+    </div>
+
+
+    <div style="margin: 5rem auto" class="container">
+
+
+
+    <!--Accordion wrapper-->
+    <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+
+      <!-- Accordion card -->
+      <div class="card">
+
+        <!-- Card header -->
+        <div class="card-header" role="tab" id="headingOne1">
+          <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
+            aria-controls="collapseOne1">
+            <h5 class="mb-0">
+              Can the mask be washed? <i class="fas fa-angle-down rotate-icon"></i>
+            </h5>
+          </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+          data-parent="#accordionEx">
+          <div class="card-body">
+            The mask can be hand washed with washing soda and hot water. However, this will not extend the life of the filters as the pollution will be locked into them. As the whole mask is the filter, once it has reached its recommended total hours of use, a new mask is needed. Please do not machine wash or machine dry the mask.
+          </div>
+        </div>
+
+      </div>
+      <!-- Accordion card -->
+
+      <!-- Accordion card -->
+      <div class="card">
+
+        <!-- Card header -->
+        <div class="card-header" role="tab" id="headingTwo2">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
+            aria-expanded="false" aria-controls="collapseTwo2">
+            <h5 class="mb-0">
+              How long can the mask be used for? <i class="fas fa-angle-down rotate-icon"></i>
+            </h5>
+          </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+          data-parent="#accordionEx">
+          <div class="card-body">
+            OxyShield face masks are non-disposable and can be used up to 30 washes. Meanwhile, the length of time they are suitable for depends on how polluted the environment is when you use it.
+          </div>
+        </div>
+
+      </div>
+      <!-- Accordion card -->
+
+      <!-- Accordion card -->
+      <div class="card">
+
+        <!-- Card header -->
+        <div class="card-header" role="tab" id="headingThree3">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
+            aria-expanded="false" aria-controls="collapseThree3">
+            <h5 class="mb-0">
+              How often do I need to change the filter? <i class="fas fa-angle-down rotate-icon"></i>
+            </h5>
+          </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
+          data-parent="#accordionEx">
+          <div class="card-body">
+            Good news! You don’t need to change the filter because the whole mask is the filter. To provide the best seal possible we have sewn the filter directly into the mask.
+
+<br><br>This does not mean the mask will expire faster either, as they are made to last 30 washes.
+
+          </div>
+        </div>
+
+      </div>
+      <!-- Accordion card -->
+      <!-- Accordion card -->
+      <div class="card">
+
+        <!-- Card header -->
+        <div class="card-header" role="tab" id="headingFour4">
+          <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseFour4" aria-expanded="true"
+            aria-controls="collapseFour4">
+            <h5 class="mb-0">
+              What does the valve do? <i class="fas fa-angle-down rotate-icon"></i>
+            </h5>
+          </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapseFour4" class="collapse" role="tabpanel" aria-labelledby="headingFour4"
+          data-parent="#accordionEx">
+          <div class="card-body">
+            The valve works by opening when you exhale and closing when you inhale. The easiest way to see this in operation would be to look in the mirror and observe it opening and closing as you breathe.
+<br><br>We have made improvements to the valve to adjust the thickness of the inner membrane. This makes it easier for the valve to open and close at the exact time you are exhaling and inhaling.
+
+          </div>
+        </div>
+
+      </div>
+      <!-- Accordion card -->
+
+      <!-- Accordion card -->
+      <div class="card">
+
+        <!-- Card header -->
+        <div class="card-header" role="tab" id="headingFive5">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFive5"
+            aria-expanded="false" aria-controls="collapseFive5">
+            <h5 class="mb-0">
+              What products do you have? <i class="fas fa-angle-down rotate-icon"></i>
+            </h5>
+          </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapseFive5" class="collapse" role="tabpanel" aria-labelledby="headingFive5"
+          data-parent="#accordionEx">
+          <div class="card-body">
+            We currently have four different types of masks ON95, ON95+, On95s and ON95v. We also provide a head-strap and nose foam to help the masks fit better.
+          </div>
+        </div>
+
+      </div>
+      <!-- Accordion card -->
+
+      <!-- Accordion card -->
+      <div class="card">
+
+        <!-- Card header -->
+        <div class="card-header" role="tab" id="headingSix6">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseSix6"
+            aria-expanded="false" aria-controls="collapseSix6">
+            <h5 class="mb-0">
+              During this pandemic, how should I wash my Mask? <i class="fas fa-angle-down rotate-icon"></i>
+            </h5>
+          </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapseSix6" class="collapse" role="tabpanel" aria-labelledby="headingSix6"
+          data-parent="#accordionEx">
+          <div class="card-body">
+            Thorough washing will remove viruses and bacterial from all surfaces including hands, masks and worktops etc.
+<br><br>OxyShield face masks are hand washable, and should then be hung dry. Do not machine wash or machine dry as this can damage the filters.
+
+          </div>
+        </div>
+
+      </div>
+      <!-- Accordion card -->
+      <div class="card">
+
+        <!-- Card header -->
+        <div class="card-header" role="tab" id="headingSeven7">
+          <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseSeven7" aria-expanded="true"
+            aria-controls="collapseSeven7">
+            <h5 class="mb-0">
+              Does the Mask filter Coronavirus?<i class="fas fa-angle-down rotate-icon"></i>
+            </h5>
+          </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapseSeven7" class="collapse" role="tabpanel" aria-labelledby="headingSeven7"
+          data-parent="#accordionEx">
+          <div class="card-body">
+            Our masks are tested to filter 99.6% of viruses and bacteria.
+<br><br>Viruses usually travel on droplets of water, which are very large. The mask will block these particles.
+
+          </div>
+        </div>
+
+      </div>
+      <!-- Accordion card -->
+
+      <!-- Accordion card -->
+      <div class="card">
+
+        <!-- Card header -->
+        <div class="card-header" role="tab" id="headingEight8">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseEight8"
+            aria-expanded="false" aria-controls="collapseEight8">
+            <h5 class="mb-0">
+              What can the mask filter? <i class="fas fa-angle-down rotate-icon"></i>
+            </h5>
+          </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapseEight8" class="collapse" role="tabpanel" aria-labelledby="headingEight8"
+          data-parent="#accordionEx">
+          <div class="card-body">
+            • Almost 100% of Particulate Matter (PM) including PM10, PM2.5 and PM0.3. These are the sort of particles you find in coal dust from power stations, diesel exhaust fumes, factory emissions, and from construction works.
+<br><br>• Almost 100% of gas-based air pollution, including odours such as Volatile Organic Compounds (VOCs), Ozone, Benzathine, and Formaldehyde. These particulates you can find in petrol fumes, chemical emissions, and from many industrial processes.
+<br><br>• Almost 100% of harmful pathogens such as viruses and bacteria.
+<br><br>• Other airborne irritants or allergens such as dust, mould spores, some odours, pet allergens and pollen.
+
+          </div>
+        </div>
+
+      </div>
+      <!-- Accordion card -->
+
+      <!-- Accordion card -->
+      <div class="card">
+
+        <!-- Card header -->
+        <div class="card-header" role="tab" id="headingNine9">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseNine9"
+            aria-expanded="false" aria-controls="collapseNine9">
+            <h5 class="mb-0">
+              Who is the mask for? <i class="fas fa-angle-down rotate-icon"></i>
+            </h5>
+          </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapseNine9" class="collapse" role="tabpanel" aria-labelledby="headingNine9"
+          data-parent="#accordionEx">
+          <div class="card-body">
+          <br><br> • Anyone exposed to urban environments with high air pollution levels – any big city often has higher air pollution. You can find a number of apps and websites to tell you the air quality in your area.
+<br><br>• People in at-risk groups for respiratory disease, including children, elderly, pregnant women and those with existing respiratory conditions.
+<br><br>• Asthmatics and allergy sufferers including Hay Fever.
+<br><br>• Hobbyists and DIY such as woodworking and sanding.
+<br><br>• Anyone travelling to regions known for poor air quality such as China and India.
+<br><br>• Anyone seeking protection for airborne irritants such as dust and mould.
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Accordion wrapper -->
+</div>
+
 
 
 
 
     <div id="contact" class="toLocate"></div>
     <section  class="contact_us">
-      <h4>Get In Touch</h4>
+      <h4>We left your question unanswered? Contact Us</h4>
       <form class="" action="mailto:contact@oxyshield.in" method="post">
         <input type="text" name="first_name" value="" placeholder="First Name">
         <input type="text" name="last_name" value="" placeholder="Last Name">
@@ -67,14 +346,16 @@
       <div class="row">
         <div class="col-6 left">
           <h5>Explore</h5>
-          <a href="about.html"> <p>About</p></a>
-          <a href="blog.html"> <p>Blog</p></a>
+          <a href="../about.html"> <p>About</p></a>
+          <a href="../blog.html"> <p>Blog</p></a>
           <a href="#"> <p>FAQs</p></a>
+          <a href="../products.html"> <p>Products</p></a>
         </div>
         <div class="col-6 right">
           <h5>Contact Us</h5>
           <a href="mailto:contact@oxyshield.in">  <p>contact@oxyshield.in</p></a>
           <a href="tel:+917389691188"> <p>+91- 7389691188</p></a>
+          <a href="../contact.html"> <p>See More</p></a>
         </div>
 
       </div>

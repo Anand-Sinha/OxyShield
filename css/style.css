@@ -415,6 +415,36 @@ h6{
   padding: 2rem;
   /* font-weight: 600; */
 }
+.bg-faq{
+  background: url("../img/faq.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-products{
+  background: url("../img/products.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card img{
+  width: 60%;
+  margin: auto;
+}
+.card:hover{
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+.card p{
+font-size: 14px;
+}
+.card h6{
+  font-weight: 700;
+  font-variant: small-caps;
+}
+.card{
+  margin-top: 20px;
+  border: 2px solid rgba(148,210,238,0.5);
+  border-radius: 10px;
+}
 @media (min-width: 1100px) and (max-width: 1400px) {
   h1{
     font-size: 5rem;
